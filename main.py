@@ -1,4 +1,9 @@
 def user_input():
+    
+    """
+    Function checks if user answer is in 'possible_input' list.
+    """
+    
     possible_input = ["too big", "too small", "you won"]
 
     while True:
@@ -11,6 +16,11 @@ def user_input():
 
 
 def game():
+    
+    """
+    Main function of our game.
+    """
+    
     print("Imagine number between 1 and 1000 and I'll try to guess it")
     print("Press 'Enter' to continue: ")
     input()
