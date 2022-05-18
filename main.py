@@ -41,6 +41,4 @@ def game():
     print("Hurra I guessed the number !")
 
 
-if __name__ == '__main__':
-
-    game()
+print(game())
